@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "React webpack boilerplate",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
