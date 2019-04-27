@@ -1,0 +1,25 @@
+.main-sidebar {
+    background: $white;
+    .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+        border-right: 0;
+    }
+    .ant-menu {
+        background: $white;
+    }
+    .ant-menu-submenu > .ant-menu {
+        background: $white;
+    }
+    min-height: 100vh;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    .logo {
+        text-align: center;
+        padding: 15px;
+        .logo-img {
+            display: inline-block;
+            height: 45px;
+        }
+    }
+}

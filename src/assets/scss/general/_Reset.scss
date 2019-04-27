@@ -1,0 +1,27 @@
+body {
+    font-size: 1rem;
+    font-family: $font1;
+    font-size: 14px;
+    color: $text1;
+    background: $sidebar-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $title;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.main-content {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+    min-height: 100vh;
+    position: relative;
+}
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
